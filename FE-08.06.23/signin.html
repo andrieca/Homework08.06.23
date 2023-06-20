@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in Form</title>
+    <link rel="stylesheet" href="/style/app.css">
+    <link rel="stylesheet" href="/style/signin.css">
+</head>
+<body>
+    <h1>Sign in Form</h1>
+    <form>
+        <div class="container">
+            <label for="login">Login</label>
+            <input type="text" id="login" placeholder="Enter login" required>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Enter password" required>
+
+            <button type="button" class="loginbtn" onclick="signIn(event)">Ok</button>
+        </div>
+    </form>
+    
+    <a href="/">Go back</a>
+
+    <script src="/js/signin.js"></script>
+</body>
+</html>
